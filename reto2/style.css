@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    place-content: center;
+    height: 600px;
+}
+.container--grid {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: 150px 150px;
+    grid-auto-rows: 150px;
+    background-color: #37631F;
+}
+.item {
+    display: grid;
+    place-content: end;
+    background-color: #A7D220;
+}
+.item--box {
+    width: 40px;
+    height: 60px;
+    background-color: #64A93E;
+}
+.small--box {
+    position: absolute;
+    display: grid;
+    place-self: center;
+    width: 35px;
+    height: 35px;
+    background-color: #1c2e12;
+}

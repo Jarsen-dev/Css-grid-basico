@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+.background--soft-green {
+    background-color: #AAE90D;
+}
+.background--medium-green {
+    background-color: #8CB81F;
+}
+.background--strong-green {
+    background-color: #2E7514;
+}
+.item {
+    display: grid;
+    justify-items: end;
+    align-items: flex-end;
+}
+.number {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 35px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    background-color: #2E7514;
+}
+.background--strong-green .number {
+    background-color: #18340E;
+}

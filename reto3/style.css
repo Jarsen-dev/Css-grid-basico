@@ -1,0 +1,39 @@
+.container {
+    height: 600px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 
+        "soft1 medium medium"
+        "strong strong soft2"
+        "soft3 medium2 strong2";
+    place-content: center;
+}
+.item--soft-color {
+    background-color: #C5EB36;
+    grid-area: soft1;
+}
+.item--soft-color-2 {
+    background-color: #C5EB36;
+    grid-area: soft2;
+}
+.item--soft-color-3 {
+    background-color: #C5EB36;
+    grid-area: soft3;
+}
+.item--medium-color {
+    background-color: #7BBC00;
+    grid-area: medium;
+}
+.item--medium-color-2 {
+    background-color: #7BBC00;
+    grid-area: medium2;
+}
+.item--strong-color {
+    background-color: #338800;
+    grid-area: strong;
+}
+.item--strong-color-2 {
+    background-color: #338800;
+    grid-area: strong2;
+}
